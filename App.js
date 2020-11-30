@@ -1,4 +1,3 @@
-import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { InMemoryCache, ApolloProvider, ApolloClient } from "@apollo/client";
 import { AppRegistry } from "react-native";
