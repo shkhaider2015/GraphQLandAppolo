@@ -60,6 +60,11 @@ export class DrawerContent extends React.Component {
                                 label="Test"
                                 onPress={() => {this.props.navigation.navigate('Test')} }
                             />
+                            <Drawer.Item
+                                icon={({ color, size }) => (<Icon name="home-outline" color={color} size={size} />)}
+                                label="GraphQL MQ"
+                                onPress={() => {this.props.navigation.navigate('GraphQlMulti')} }
+                            />
                             {/* <Drawer.Item
                                 icon={({ color, size }) => (<Icon name="bookmark-outline" color={color} size={size} />)}
                                 label="Bookmarks"

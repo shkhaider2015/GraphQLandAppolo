@@ -45,7 +45,6 @@ const GetPosts = () => {
 
     // console.log(data.posts.data[0].title)
     const mydata = data.posts.data
-    console.log(mydata)
     return (
         <View style={styles.container} >
             <Text style={styles.text} > Welcome GetPosts </Text>
