@@ -7,7 +7,7 @@ import { DrawerContent } from "./contentDrawer";
 import { Text } from "react-native";
 import MyAppBar from "./appBar";
 import GraphQLMQ from "./graphQLMQ";
-import GraphQLMulti from './graphQLMQ';
+import GraphQLMulti from './graphQLMQC';
 
 
 const Drawer = createDrawerNavigator();
